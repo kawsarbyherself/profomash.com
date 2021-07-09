@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfoMash</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<div class="portfolia">
+    
+</div>
+<header>
+<body style="background-color: rgb(0, 0, 0)">
+    <h1>ProfoMash</h1>
+    <h2>Those with a Scope</h2>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About Us</a>
+        <li><a href="#">Sign Up</a></li>
+    </ul>
+</nav>
+
+    <p class="name">Kawsar S Chaudry</p>
+    <img class="profilepic" src="https://www.spacex.com/static/images/share.jpg">
+    <p class="tag">Kawsar Chaudry</p>
+
+    
+    
+    <nav class="menu">
+        <a href="#about"><h3>ABOUT</h3></a>
+        <a href="#education"><h3>EXPERIENCE</h3></a>
+        <a href="#tech skills"><h3>TECHNOLOGY SKILLS</h3></a>
+    </nav>
+
+    
+
+    <div class="content">
+        <section id="about" class="section"><h3>About</h3><p class="bio">Highly focused and responsible high school graduated student, guaranteed to contribute strongly within a IT frontend or backend role requiring enthusiasm, charismatic communication skills, and an exemplary work ethic.
+
+            Communications: Convey information persuasively both orally and in writing. Facility for building positive relationships with others with humor, helpfulness, and cultural sensitivity. 
+            Teamwork: Able to apply learned to motivate and support all team members in assigned tasks and projects
+            Technical Proficiencies: Microsoft Work, graphic designing, data entry, and video editing skills. HTML,CSS skills </p></section>
+       <section id="education" class="section"><h3>Experience</h3><p class="bio">I-HELP Touching Souls (Non-Profit Organization)
+        Volunteer/Team Member, June 2018 to present
+         
+        Street to the Classroom (A Free Street School)
+        Coordinator, September 2018 to March 2020
+        
+        Tax and Budget Advocacy One-day Orientation Session (by Oxfam, Even it Up, I-Help)
+        Volunteer, November 4 2018
+        
+        Annual Function for Street School Students
+        Executive Manager, April 21 2019</p></section>
+        <section id="techskills" class="section"><h3>Technology Skills</h3></section>
+    </div>
+
+    
+   <h4>Some of my websites I Created and Refactored</h4>
+   <a href="file:///Users/kawsarchaudry/Landing-Webpage/index.html">
+    <img class="work" src="file:///Users/kawsarchaudry/Desktop/Screen%20Shot%202021-07-06%20at%201.22.53%20AM.png" alt="work">
+   </a>
+
+   <a href="file:///Users/kawsarchaudry/Documents/kcshorizonproject/index.html">
+     <img class="refactor" src="file:///Users/kawsarchaudry/Desktop/Screen%20Shot%202021-07-06%20at%201.38.26%20PM.png" alt="refact">
+</a>
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+
+    $(function(){
+        $(".menu a").on('click', function(){
+            $("html, body").animate({
+                scrollTop: $($.attr(this, 'href')).offset().top 
+            }, 500); // 500 = 0.5 second 
+
+        });
+    
+    });
+
+    
+
+    
+
+</script>
+</body>
+</header>
+</html>
